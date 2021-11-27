@@ -1,0 +1,14 @@
+using System;
+class Program {
+static void Main() {
+Console.WriteLine("Введите сумму");
+int sum = int.Parse(Console.ReadLine());
+if (sum>500 && sum<=1000)
+Console.WriteLine(sum * 0.97);
+else if (sum>1000)
+Console.WriteLine(sum * 0.95);
+else
+Console.WriteLine("no");
+
+}
+}
